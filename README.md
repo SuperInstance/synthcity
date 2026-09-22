@@ -84,11 +84,11 @@ their return values pass through; the ledger records what they did. `bridge.deta
 puts the game back byte-for-byte behaviorally, which is how the tests prove it.
 
 **Byte-identity is enforced, not claimed**: `tests/upstream-manifest.json`
-records the sha256 of 25 upstream source files as of the branch this fork
+records the sha256 of 26 upstream source files as of the branch this fork
 ported from, and a test fails if any of them drifts. `index.html` — the single
-permitted upstream edit — carries one clearly-marked `<script type="module">`
-block, and a second test proves the file with that block removed hashes equal
-to upstream.
+permitted upstream edit, one of those 26 — carries one clearly-marked
+`<script type="module">` block, and a second test proves the file with that
+block removed hashes equal to upstream.
 
 ## The FORGET page turn (a deliberate improvement over the reference kernel)
 
