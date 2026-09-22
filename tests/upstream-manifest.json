@@ -1,0 +1,32 @@
+{
+  "_comment": "sha256 of upstream files as of the branch this fork ported from. Regenerate with node tools/make-upstream-manifest.mjs after pulling upstream. index.html is the single permitted upstream edit; its delta is asserted separately (marked quilt block only).",
+  "_branch": "main",
+  "files": {
+    "LICENSE": "f7eff86ce4145029eadcf555003bc1d628afa3d780d0bd7e178dcf12fc32efca",
+    "css/bootstrap-dark.min.css": "836aff08b525d9ff435b2c50c1d9fd2c492f886592afc6daf7704108c9765b2a",
+    "css/home.css": "e1865e565a9ef45cf0a0e3e575eeb7a6ff24cf338dc9e0cceac0e96cfcc5ed2e",
+    "css/style-v6.css": "073ce2201da398c7e17bc370800ce4632af3bcf18097a5e603a9e2260c147ab7",
+    "dist/main.4840b40f143ef03913fc.js": "b00ea9373383d6be998537001d4deba8b323aa4f65b21857689a14b373ce258e",
+    "dist/main.4840b40f143ef03913fc.js.LICENSE.txt": "5a590cd905c9398d08c62a9fe4b097ec7fc2762a4eb7929857c8a9d8511e717f",
+    "index.html": "59cf6bf68ecaabe014042a57cd751a7c1c9a0aac5980ddf552192e9f1afe413b",
+    "js/alea.js": "440f2b45fea342979e5f134db77217b0e846671ebb91bda882d54b408476b26b",
+    "js/proc-noise.js": "7e12e48fd54670d3c022feddc4abf4503f109cb0559864ecf22ad964090d3c06",
+    "js/ui-v3.js": "997f45c82e62700f803856a0586fd5bfddf717ee3ec83a0ec41a45e205433c3b",
+    "package-lock.json": "4289b31e1e48293f5dd1b8c14ec2c91b56a7df2762cb0d8b7a9188b44bb61c66",
+    "package.json": "61f9bfab310382109de192f872f7a63aa937d756e5b37dc5bd30bf4d9f94b2bc",
+    "src/classes/AssetManager.js": "02437a110a07ed523d97577e7f77c6f7b7b324676e36ac17177ae62fea7fcd23",
+    "src/classes/Collider.js": "7b3f4b1fef796119e76eec1dca93560aee35df1f3b2328a27364c10247284ef8",
+    "src/classes/Generator.js": "159a707c832bc6e0000c4f1cc731e58d3fbdfa202bb8374d717ba68b630bfc1f",
+    "src/classes/GeneratorItem_CityBlock.js": "d4e1adbc69e95f301308fe3ab598045792a1af64273a14930639f29f62cd47fe",
+    "src/classes/GeneratorItem_CityLight.js": "af72fb65827650a96955cf56222938439328d642517e8338ea98cc5467185bb0",
+    "src/classes/GeneratorItem_Traffic.js": "55351511833d16d78225a94be84e581f680ea4eb4db8194f6cc23056abdb81d5",
+    "src/classes/GeneratorUtils.js": "f4abeca199d472356bc93c3c03375fc65cac34e4ad18f1d8a25ebdcf8a4410d6",
+    "src/classes/Player.js": "eb51a0adaefdc1107091b7c076707058cc15d96f40adc36c63854631d318e689",
+    "src/classes/PlayerCar.js": "645101b88742c00d235ab1a9204a40be3b7092741ee7e38f56af1e884e171d2c",
+    "src/classes/PlayerController.js": "905decb31395208f19772a6b57af52ba55c28bdc0cfe67376b357346e708faff",
+    "src/classes/Radio.js": "0485e92ba3a5e82c670c4684091b5117ce5cfc75ee5a097dbfcd1100d70eca81",
+    "src/classes/Shaders.js": "98fb7f24f714b1de6c4f6a1b198aed98573c276eaf1b8ea6da1212ab8ba0ddec",
+    "src/index.js": "99118da1a93468e728b986e0e8b0bb4d51fbbc3745ad07ec96349be2560338f2",
+    "webpack.config.js": "a1f83e8a6a1b97b026b429133bd4e683cbefdb562f5f97f457bf1fa9271c288e"
+  }
+}

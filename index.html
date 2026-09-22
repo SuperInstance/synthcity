@@ -128,5 +128,11 @@
 		<script src="js/proc-noise.js"></script>
     <script src="dist/main.4840b40f143ef03913fc.js" async></script>
 
+    <!-- BEGIN quilt substrate — fork addition. Everything the quilt backend
+         needs is loaded from here; every file under src/ and js/ stays
+         byte-identical to upstream. Press Q in-game for the ◈ pane. -->
+    <script type="module" src="app/quilt/main.js"></script>
+    <!-- END quilt substrate -->
+
   </body>
 </html>

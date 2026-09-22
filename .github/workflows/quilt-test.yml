@@ -1,0 +1,29 @@
+# CI for the quilt substrate. Upstream has no workflows at all; this fork adds
+# the minimum that actually runs the laws: node's built-in test runner, no
+# npm ci, no secrets. The deploy job is a stub that echoes and exits 0 — this
+# fork must not invent a deploy target it cannot have.
+name: quilt tests
+
+on:
+  push:
+    branches: [main, quilt-backend]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: node --test tests/quilt.test.mjs
+        run: node --test tests/quilt.test.mjs
+
+  deploy:
+    # stub on purpose: no secrets, no target, nothing to do
+    runs-on: ubuntu-latest
+    needs: test
+    steps:
+      - name: deploy (stub)
+        run: echo "no deploy target configured for this fork — nothing to do"
